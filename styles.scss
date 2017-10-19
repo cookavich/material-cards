@@ -1,3 +1,19 @@
 body {
   background-color: #D8D8D8;
 }
+
+.container {
+  width: 50%;
+  height: 50%;
+  margin:auto;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 1rem 2.43902439%;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.card {
+  background-color: #FAFAFA;
+}
